@@ -61,7 +61,7 @@
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
-  --bs-body-bg: #fff;
+  --bs-body-bg: #ffffff;
 }
 
 *,
@@ -11296,7 +11296,7 @@ div.swiper-container {
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} 
 
 
 .swiper {
@@ -11329,4 +11329,18 @@ div.swiper-container {
 
 .mySwiper .swiper-slide-thumb-active {
   opacity: 1;
+}
+
+.swiper-slide img {
+  width: auto;
+  height: auto;
+  max-width: 85%;
+  max-height: 100%;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
 }
