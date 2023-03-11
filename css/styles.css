@@ -11286,3 +11286,47 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+
+div.swiper-container {
+  padding-top: 25vh;
+}
+
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.swiper {
+  width: 480px;
+}
+
+
+.mySwiper2 {
+  width: 480px;
+  height: 320px;
+}
+
+
+.mySwiper {
+  height: 30%;
+  box-sizing: border-box;
+  margin: 10px;
+}
+
+
+.mySwiper .swiper-slide {
+  opacity: 0.4;
+}
+
+
+.swiper-slide {
+  background-position: center;
+}
+
+
+.mySwiper .swiper-slide-thumb-active {
+  opacity: 1;
+}
