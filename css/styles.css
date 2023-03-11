@@ -11293,60 +11293,25 @@ textarea.form-control-lg {
   }
 }
 
-div.swiper-container {
-  padding-top: 5vh;
+.swiper-container {
+  width: 100%;
+  margin: 40px 0;
+  padding: 100px 0;
 }
-
 
 .swiper-slide {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} 
-
-
-.swiper {
-  width: 480px;
-}
-
-
-.mySwiper2 {
-  width: 480px;
-  height: 320px;
-}
-
-
-.mySwiper {
-  height: 30%;
-  box-sizing: border-box;
-  margin: 10px;
-}
-
-
-.mySwiper .swiper-slide {
   opacity: 0.4;
-}
-
-
-.swiper-slide {
-  background-position: center;
-}
-
-
-.mySwiper .swiper-slide-thumb-active {
-  opacity: 1;
+  overflow: hidden;
+  transition: .7s;
+  max-width: 100%;
 }
 
 .swiper-slide img {
-  width: auto;
-  height: auto;
-  max-width: 85%;
-  max-height: 100%;
-  -ms-transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  position: absolute;
-  left: 50%;
-  top: 50%;
+ width: 100%;
+}
+
+.swiper-slide-active {
+  opacity: 1;
+  z-index: 1;
+  transform: scale(1.5);
 }

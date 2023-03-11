@@ -1,19 +1,29 @@
-//  Initialize Swiper
-let swiper = new Swiper(".mySwiper", {
-    spaceBetween: 10,
-    slidesPerView: 4,
-    freeMode: true,
-    watchSlidesProgress: true,
-   });
-   
-   
-   let swiper2 = new Swiper(".mySwiper2", {
-    spaceBetween: 10,
+const swiper = new Swiper('.swiper-container', {
+    centeredSlides: true,
+    loop: true,
+    speed: 500,
+    slidesPerView: 1.5,
+    spaceBetween: 40,
+    autoplay: {
+        delay: 3000,
+    },
     navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
     },
-    thumbs: {
-      swiper: swiper,
+    breakpoints: {
+
+        640: {
+            slidesPerView: 2.5,
+        },
+        768: {
+            slidesPerView: 2.75,
+        },
+        1080: {
+            slidesPerView: 3.25,
+        },
+        1280: {
+            slidesPerView: 3.75,
+        },
     },
-   });
+});
