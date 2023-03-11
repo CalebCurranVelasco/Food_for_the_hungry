@@ -11,7 +11,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-  --bs-blue: #0d6efd;
+  --bs-blue: #674023;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
   --bs-pink: #d63384;
@@ -33,7 +33,7 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #0d6efd;
+  --bs-primary: #674023;
   --bs-secondary: #6c757d;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
@@ -60,8 +60,9 @@
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #212529;
-  --bs-body-bg: #fff;
+  --bs-body-color: #9d7753;
+  --bs-body-bg: #efe1d0;
+  --bs-shit-bg: #9e5f32;
 }
 
 *,
@@ -282,8 +283,9 @@ a > code {
 kbd {
   padding: 0.2rem 0.4rem;
   font-size: 0.875em;
-  color: #fff;
-  background-color: #212529;
+  color: #e8d4b0;
+  /* background-color: #212529; */
+  background-color: #e8d4b0;
   border-radius: 0.2rem;
 }
 kbd kbd {
@@ -309,7 +311,7 @@ table {
 caption {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  color: #6c757d;
+  color: #e8d4b0;
   text-align: left;
 }
 
@@ -3030,8 +3032,8 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: #0d6efd;
-  border-color: #0d6efd;
+  background-color: #674023;
+  border-color: #fff;
 }
 .btn-primary:hover {
   color: #fff;
@@ -7841,8 +7843,9 @@ textarea.form-control-lg {
 }
 
 .bg-dark {
-  --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+  --bs-bg-opacity: 1; 
+  /* background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important; */
+  background-color: rgba(var(186, 112, 63)) !important;
 }
 
 .bg-black {
