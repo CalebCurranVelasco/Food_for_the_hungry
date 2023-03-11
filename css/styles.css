@@ -63,7 +63,7 @@
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #9d7753;
+  --bs-body-color: #7a532e;
   --bs-body-bg: #efe1d0;
   --bs-shit-bg: #9e5f32;
 }
@@ -11307,7 +11307,8 @@ textarea.form-control-lg {
 }
 
 .swiper-slide img {
- width: 100%;
+ width: 300px;
+ height: 300px;
 }
 
 .swiper-slide-active {
