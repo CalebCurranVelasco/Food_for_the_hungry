@@ -11316,3 +11316,8 @@ textarea.form-control-lg {
   z-index: 1;
   transform: scale(1.5);
 }
+.logo img{
+  width: 50%;
+  text-align: center;
+  padding: auto;
+}
