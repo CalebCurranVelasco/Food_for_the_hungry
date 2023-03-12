@@ -63,7 +63,7 @@
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #9d7753;
+  --bs-body-color: #603e1d;
   --bs-body-bg: #efe1d0;
   --bs-shit-bg: #9e5f32;
 }
@@ -11307,11 +11307,17 @@ textarea.form-control-lg {
 }
 
 .swiper-slide img {
- width: 100%;
+ width: 300px;
+ height: 300px;
 }
 
 .swiper-slide-active {
   opacity: 1;
   z-index: 1;
   transform: scale(1.5);
+}
+.logo img{
+  width: 40%;
+  text-align: center;
+  padding: auto;
 }
